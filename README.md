@@ -141,7 +141,7 @@ erDiagram
 3. **Repository Pattern**: Abstracted data access for testability
 5. **DTOs**: Prevent over-posting and shape responses
 6. **Async/Await**: Full async stack for scalability
-```
+
 
 ## Performance Considerations
 
