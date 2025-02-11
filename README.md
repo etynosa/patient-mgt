@@ -170,7 +170,7 @@ MIT License - see [LICENSE](LICENSE) for details
 
 ---
 
-This implementation demonstrates production-ready patterns including:
+This application demonstrates production-ready patterns including:
 - Dependency Injection
 - Unit of Work pattern
 - Repository pattern
