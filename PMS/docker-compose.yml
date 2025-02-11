@@ -1,0 +1,11 @@
+﻿services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ConnectionStrings__DefaultConnection=Data Source=patients.db
+    volumes:
+      - ./data:/app/data
