@@ -16,7 +16,7 @@ COPY ["PMS/PMS.csproj", "PMS/"]
 RUN dotnet restore "./PMS/PMS.csproj"
 COPY . .
 WORKDIR "/src/PMS"
-RUN dotnet build "./PMS.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "PMS.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
